@@ -1,0 +1,30 @@
+//greater of 3nos : type1
+#include<stdio.h>
+void greater();
+void main()
+{
+	greater();
+
+}
+void greater()
+{
+	int a, b, c;
+	
+	printf("Enter three numbers\n");
+	scanf("%d %d %d", &a, &b, &c);
+	
+	if(a > b)
+    {
+        if(a > c)
+            printf("a: %d is Greater\n", a);
+        else
+            printf("b: %d is Greater\n", b);
+    }
+    else
+	{
+	  if(b > c)
+        printf("b: %d is Greater\n", b);
+    else
+        printf("c: %d is Greater\n", c);
+    }
+}
